@@ -1,94 +1,26 @@
-# 📱 ደሴ ማርት (Dessie Mart / ሙጋድ ገበያ) — ይፋዊ የ `manifest.json` ፋይል (Web App Manifest)
-
-ይህ ሰነድ ለ**ደሴ ማርት (ሙጋድ ገበያ)** ለ PWABuilder፣ ለ Google Play Store (TWA / APK / AAB)፣ ለ Vercel እንዲሁም መተግበሪያው በስልክ ላይ ሲጫን እንደ ኔቲቭ መተግበሪያ (Standalone App) ሙሉ ስክሪን ሆኖ እንዲከፈት የሚያስችለውን ይፋዊ የ **`manifest.json`** ሙሉ ምንጭ ኮድ ይዟል።
-
----
-
-## 📁 1. የፋይሉ አቀማመጥ (File Location)
-```plaintext
-dessie-mart/manifest.json
-```
-*(ወይም በ `public/manifest.json` ማውጫ ውስጥ)*
-
----
-
-## 💻 2. የተሟላ የ `manifest.json` ምንጭ ኮድ (Source Code)
-
-```json
 {
-  "name": "ደሴ ማርት (ሙጋድ ገበያ)",
-  "short_name": "ደሴ ማርት",
-  "description": "የደሴ ከተማ እና የደቡብ ወሎ ዘመናዊ የሞባይል ኢ-ኮሜርስ፣ የኪራይ/ሽያጭ እና የተገላቢጦሽ ጨረታ መድረክ",
-  "start_url": "/",
-  "scope": "/",
-  "display": "standalone",
-  "background_color": "#0b0f19",
-  "theme_color": "#1254d6",
-  "orientation": "portrait",
-  "lang": "am",
+  "background_color": "#1428ff",
   "dir": "ltr",
+  "display": "standalone",
+  "name": "ደሴ ማርት ሙጋድ ገበያ",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "ደሴ ማርት",
+  "start_url": "https://arado-bice.vercel.app/",
+  "theme_color": "#94ad15",
+  "id": "Com.Dessiemart.app",
+  "description": "የደሴ ከተማ እና ደቡብ ወሎ ዲጂታል የግብይት መድረክ ሽያጭ ኪራይና ጨረታ ማስታወቂያ እና ማሳለጫ",
+  "lang": "am",
   "categories": [
-    "shopping",
+    "beauty",
+    "books",
     "business",
-    "utilities"
-  ],
-  "icons": [
-    {
-      "src": "/assets/icons/app_icon_192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/assets/icons/app_icon_512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ],
-  "shortcuts": [
-    {
-      "name": "ማስታወቂያ ለጥፍ",
-      "short_name": "ለጥፍ",
-      "description": "አዲስ የሽያጭ ወይም የኪራይ ማስታወቂያ ይለጥፉ",
-      "url": "/#post",
-      "icons": [
-        {
-          "src": "/assets/icons/app_icon_192.png",
-          "sizes": "192x192"
-        }
-      ]
-    },
-    {
-      "name": "የጨረታ ገበያ",
-      "short_name": "ጨረታ",
-      "description": "ክፍት ጨረታዎችንና የገዢ ፍላጎቶችን ይመልከቱ",
-      "url": "/#tenders",
-      "icons": [
-        {
-          "src": "/assets/icons/app_icon_192.png",
-          "sizes": "192x192"
-        }
-      ]
-    }
+    "cars",
+    "design",
+    "development",
+    "finance",
+    "health &amp; fitness",
+    "shopping",
+    "transportation"
   ]
 }
-```
-
----
-
-## 🔍 3. በ `manifest.json` ውስጥ የተካተቱ ቁልፍ ክፍሎችና ህጎች፦
-
-| መስክ (Field) | እሴት (Value) | ማብራሪያ (Role & Significance) |
-|---|---|---|
-| **`"name"`** | `ደሴ ማርት (ሙጋድ ገበያ)` | በአንድሮይድ ስልክ ጭነት ጊዜ እና በ Google Play Store ላይ የሚታየው ሙሉ ይፋዊ ስም |
-| **`"short_name"`** | `ደሴ ማርት` | በስልኩ የመነሻ ስክሪን አዶ (Home Screen App Icon) ስር የሚታየው አጭር ስም |
-| **`"display"`** | `standalone` | አፑ ሲከፈት የብሮውዘር አድራሻ ባር እና ጫጫታ ሳይኖረው 100% እንደ ኔቲቭ አፕ በሙሉ ስክሪን እንዲሰራ ያደርጋል |
-| **`"theme_color"`** | `#1254d6` | የስልኩ የላይኛው የሁኔታ አሞሌ (Android Status Bar) በደሴ ማርት ሮያል ሰማያዊ ቀለም እንዲደምቅ ያደርጋል |
-| **`"background_color"`** | `#0b0f19` | አፑ ሲከፈት በስፕላሽ ስክሪኑ ጀርባ ላይ የሚታየው የጥቁር ክልል ቀለም |
-| **`"orientation"`** | `portrait` | መተግበሪያው በቁመት (Portrait Mode) ብቻ እንዲሰራ ያረጋግጣል |
-| **`"icons"`** | `192x192` እና `512x512` | ለተለያዩ የስልክ ጥራቶችና ለ Google Play Store የሚያስፈልጉ `maskable` አዶዎች |
-| **`"shortcuts"`** | `ማስታወቂያ ለጥፍ` & `የጨረታ ገበያ` | ተጠቃሚው የስልኩን አዶ ለጥቂት ሰከንዶች ጫን አድርጎ ሲይዝ (Long-Press Quick Actions) የሚመጡ ፈጣን አቋራጮች |
-
----
-*ይህ ሰነድ ለደሴ ማርት (ሙጋድ ገበያ) ይፋዊ የ PWA/TWA መታወቂያ ፋይል ሆኖ በቀጥታ በካንቫስ ላይ ተቀምጧል።*
