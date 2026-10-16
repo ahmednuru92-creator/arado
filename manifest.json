@@ -1,5 +1,5 @@
 {
-  "name": "ደሴ ማርት",
+  "name": "ደሴ ማርት (ሙጋድ ገበያ)",
   "short_name": "ደሴ ማርት",
   "description": "የደሴ ከተማ እና የደቡብ ወሎ ዘመናዊ የሞባይል ኢ-ኮሜርስ፣ የኪራይ/ሽያጭ እና የተገላቢጦሽ ጨረታ መድረክ",
   "start_url": "/",
@@ -17,19 +17,25 @@
   ],
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/ahmednuru92-creator/arado/main/logo.png",
+      "src": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=192&auto=format&fit=crop&q=80",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://raw.githubusercontent.com/ahmednuru92-creator/arado/main/logo.png",
+      "src": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=192&auto=format&fit=crop&q=80",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=512&auto=format&fit=crop&q=80",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://raw.githubusercontent.com/ahmednuru92-creator/arado/main/logo.png",
+      "src": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=512&auto=format&fit=crop&q=80",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
