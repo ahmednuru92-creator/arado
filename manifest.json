@@ -17,13 +17,13 @@
   ],
   "icons": [
     {
-      "src": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=192&auto=format&fit=crop&q=80",
+      "src": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=192&auto=format&fit=crop&q=80",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=512&auto=format&fit=crop&q=80",
+      "src": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=512&auto=format&fit=crop&q=80",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
