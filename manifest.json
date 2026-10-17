@@ -6,7 +6,7 @@
   "orientation": "any",
   "scope": "/",
   "short_name": "ደሴ ማርት",
-  "start_url": "/https://arado-bice.vercel.app/",
+  "start_url": "/https://dessie mart.com/",
   "theme_color": "#95cf13",
   "icons": [
     {
@@ -25,5 +25,10 @@
   ],
   "id": "Com.dessiemart.app",
   "description": "የደሴ ከተማ ዲጂታል የግብይት መድረክ ሽያጭ ኪራይና ጨረታ ማስታወቂያ እና ማሳለጫ",
-  "lang": "am"
+  "lang": "am",
+  "categories": [
+    "business",
+    "productivity",
+    "shopping"
+  ]
 }
